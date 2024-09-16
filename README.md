@@ -10,7 +10,7 @@ preprod opnsrc tasks
 > data sources
 - [ ] scraping
 - [x] ftp
-- [ ] database
+- [x] database
 
 ### sprint 3
 > line-based models\
