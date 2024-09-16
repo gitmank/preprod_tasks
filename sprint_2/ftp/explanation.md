@@ -18,4 +18,5 @@
 run `upload.py` to upload `MOCK_DATA.csv` to the FTP server
 
 ##### Reading data from FTP server
-> using 
+> using ftplib
+run `download.py` to download mock data from the FTP server and load it as a pandas dataframe
