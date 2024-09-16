@@ -9,7 +9,7 @@ preprod opnsrc tasks
 ### sprint 2
 > data sources
 - [ ] scraping
-- [ ] ftp
+- [x] ftp
 - [ ] database
 
 ### sprint 3
