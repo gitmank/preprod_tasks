@@ -8,7 +8,7 @@ FTP_SERVER='188.245.121.87'
 FTP_USER='preprod'
 FTP_PASSWORD='preprod'
 FILE_NAME='MOCK_DATA.csv'
-DOWNLOAD_PATH='../DOWNLOADED_DATA.csv'
+DOWNLOAD_PATH='sprint_2/FTP_DATA.csv'
 
 # this function downloads a file from the ftp server
 def download_file(path):
@@ -19,7 +19,7 @@ def download_file(path):
         ftp.cwd('uploads')
 
         # open the file to download
-        with open(os.path.join(path), 'wb') as file:
+        with open((DOWNLOAD_PATH), 'wb') as file:
             # download the file
             ftp.retrbinary('RETR ' + FILE_NAME, file.write)
 
