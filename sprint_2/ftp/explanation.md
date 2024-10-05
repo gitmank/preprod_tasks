@@ -15,8 +15,10 @@
 
 ##### Uploading a file
 > using inetutils-ftp on mac
-run `upload.py` to upload `MOCK_DATA.csv` to the FTP server
+
+run `python upload.py` to upload `MOCK_DATA.csv` to the FTP server
 
 ##### Reading data from FTP server
 > using ftplib
-run `download.py` to download mock data from the FTP server and load it as a pandas dataframe
+
+run `python download.py` to download mock data from the FTP server and load it as a pandas dataframe

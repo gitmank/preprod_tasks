@@ -7,6 +7,7 @@
 - web scraping affects legitimate user traffic
 
 ##### Test script
-> using beatifulsoup
+> using beatifulsoup\
 > test site - https://webscraper.io/test-sites/e-commerce/allinone
-run `scrape.py` to extract products from the shopping site into `SCRAPED_DATA.csv`
+
+run `python scrape.py` to extract products from the shopping site into `SCRAPED_DATA.csv`
