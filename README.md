@@ -17,5 +17,8 @@ preprod opnsrc tasks
 - [x] database
 
 ### sprint 3
-> line-based models\
-> tree-based models
+> line-based models
+- [x] linear regression
+> data exploration with polars
+- [x] query json and csv data in SQL context
+- [x] data streaming with rabbitmq
