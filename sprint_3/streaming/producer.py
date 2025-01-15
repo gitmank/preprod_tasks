@@ -11,7 +11,7 @@ load_dotenv()
 # rabbitmq host
 RABBITMQ_HOST = os.getenv("RABBITMQ_HOST", "localhost")
 # binance API endpoint
-SOCKET_URL = "wss://fstream.binance.com/stream?streams=btcusdt@markPrice"
+SOCKET_URL = "wss://fstream.binance.com/stream?streams=btcusdt@markPrice@1s"
 
 # global websocket connection
 ws = None
